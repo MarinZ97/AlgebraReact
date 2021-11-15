@@ -14,7 +14,7 @@ export default class Vjezba extends React.Component {
             return( <div>
                 <h2>{this.state.naslov}</h2>
                 Korisnici: {this.state.korisnici[0].name}
-                <Child>Dijete</Child>
+                <Child name={this.state.korisnici[0].name} age={this.state.korisnici[0].age}/>
             </div>)
     }
 }
