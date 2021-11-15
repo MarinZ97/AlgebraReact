@@ -1,16 +1,20 @@
 import React from 'react';
+import Child from './ChildVjezba'
 
-
-export default class Korisnici extends React.Component {
+export default class Vjezba extends React.Component {
 
     state= {
-        niz: [1,2,3,4,5],
-        tekst: "string"
+        korisnici: [{name: "Ana", age: 55}, 
+                    {name: "Mislav", age: 43},
+                   {name: "Porin", age:21}],
+        naslov: "Naslov je tu"
     }
     
-
-
     render() {
-            return <div>{this.state.tekst} {this.state.niz}</div>
+            return( <div>
+                <h2>{this.state.naslov}</h2>
+                Korisnici: {this.state.korisnici[0].name}
+                <Child>Dijete</Child>
+            </div>)
     }
 }

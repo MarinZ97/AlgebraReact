@@ -1,7 +1,7 @@
 import React from 'react';
 import K1 from './K1';
 import K2 from './K2';
-import Korisnici from './Vjezba';
+import Vjezba from './Vjezba';
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       <h1>React</h1>
       <K1 parent="App"/>
       <K2 roditelj="App"/>
-      <Korisnici />
+      <Vjezba />
+      
     </div>
   );
 }
