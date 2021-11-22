@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import User from './User';
 
-export default function Vj511() {
+export default function Vj512() {
     const [users, setUsers] = useState([{name: 'Nikola', age: 40},
                                         {name: 'Mate', age: 109},
                                         {name: 'Štef', age: 61}]);
