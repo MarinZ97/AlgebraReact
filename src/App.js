@@ -13,3 +13,8 @@ function App() {
 }
 
 export default App;
+
+/*
+componentWillMount se više ne koristi!
+react lifecycle diagram -> pogledat i zapamtit dijagram
+*/
