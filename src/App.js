@@ -1,9 +1,13 @@
 import React from 'react';
+import Vj2311 from './Vj2311';
+
 
 function App() {
   return (
     <div>
         <h1>Test</h1>
+        <Vj2311 />
+
     </div>
   );
 }
