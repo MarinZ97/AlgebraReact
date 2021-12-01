@@ -10,7 +10,6 @@ export default class Button extends React.Component {
     render() {
         return (<div>
             <button onClick={this.handleButtonClick}>Add</button>
-            <div></div>
         </div>)
     }
 }
