@@ -34,4 +34,13 @@ noviKorisnici.push(korisnik)
 !!!!!!!!!!
 dodavanje boostrapa u react
 boostrop-react pa vidjeti!!
+
+
+React router !! -> bez njega ne može biti više html stranica
+
+# router je sigurnije koristit nego browser router, jer nakon # browser ništa ne čita i manje se šanse da se prikaže greška(404)
+
+switch kada se koristi, on gleda prvu koja se poklapa u url bilo to "/", ili "/home/about" samo home uzme u drugom slucaju
+
+<Redirect to=""> -> Directa na link koji zadamo mi i ignorira sve ostalo
 */
