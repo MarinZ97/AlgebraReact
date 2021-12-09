@@ -59,7 +59,14 @@ da ispiše 3 inputa
 ime / prezime  / tel  i da sastrane bude X da može obrisati i olokvka da može edit
 (edit) -> da se može promjeniti ime na postojećem inputu i druge stavke pa ažurirati
 
+-----------------------
 
+REDUX
+- Mora se instalirati redux paket i react-redux
+- Uvijek se pise type: / i action.type
+- Nesmije se izlazit iz "reducer" funckije, ona radi samo ono sta je dobila i vrati rezultat
+- importa se { connect } da se poveze sa redux file da se prebace podaci
+- 
 
 
 
