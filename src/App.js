@@ -65,8 +65,9 @@ REDUX
 - Mora se instalirati redux paket i react-redux
 - Uvijek se pise type: / i action.type
 - Nesmije se izlazit iz "reducer" funckije, ona radi samo ono sta je dobila i vrati rezultat
-- importa se { connect } da se poveze sa redux file da se prebace podaci
-- 
+- Importa se { connect } da se poveze sa redux file da se prebace podaci
+- Connect uzima app i napravi novu komponentu oko tog app i pravimo se da je to app i connect exportamo
+
 
 
 
