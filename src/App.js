@@ -68,7 +68,7 @@ REDUX
 - Importa se { connect } da se poveze sa redux file da se prebace podaci
 - Connect uzima app i napravi novu komponentu oko tog app i pravimo se da je to app i connect exportamo
 
-
+UseEffect se stavi nešto iz state-a inače
 
 
 */
