@@ -43,6 +43,18 @@ export default App;
 - ? predstavlja da provjerava ako nešto nije null onda radi poslije uputnika, a koje null onda ništa ne radi
 npr. -> user?.map() 
 
+- Kod reduxa je najčešće reducer posebno u fileu
+- Mora se instalirati react redux i redux
+- Redux pokupi podatke i ide do reducera da odradi te podatke sa akcijama
+- useSelector očekuje funckiju, jer će pozvat funkciju koja mu je dana i dat će mu state
+- dispatch je da dispatchamo akciju
+- Imamo dispatch funkciju koja prima pravi dispatch koji proslijedujemo u drugu funkciju koja ima akciju
+- thunk kada importamo sluzi da redux kada se nešto treba učitat i pričekat da ne preskoči i krene dalje, zbog thunk on dode i pričeka da se to odradi pa krene izvoditi akcije
+
+MobX
+- Observable nešto što želimo odvojiti i stavljamo u njega stvari (npr groceryStore)
+- Zatim imamo @action neke koje odrađuju funkcije
+- ako imamo nešto što se računa onda imamo @computed
 
 */
 
