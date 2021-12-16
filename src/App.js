@@ -70,6 +70,10 @@ function App() {
     }
   }
 
+  const shouldShowCompleted = () => {
+    return tasks.find(t => t.completed);
+  }
+
     return (
       <div>
         <h1>Todo</h1>
@@ -80,7 +84,7 @@ function App() {
         </section>
         <Input onNewTask={handleTaskAdd} />
         <TaskList taskovi={getFiltered()} onDelete={deleteTask} onCompleteToggle={toggleCompleteTask} />
-        <div onClick={clearCompleted}>Clear completed</div>
+        {shouldShowCompleted() && (<div onClick={clearCompleted}>Clear completed</div>)}
       </div>
     );
   }
@@ -89,3 +93,5 @@ export default App;
 
 // da bi javio appu da je nes izbrisano onda prosljeduje event da tak sazna
 //svaka promjena u stateu refresha
+
+//shouldShowCompleted() -> poziv j funkcije i zelimo dobiti to sta ce funckija vratit jer su zagrade
