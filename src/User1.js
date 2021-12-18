@@ -9,7 +9,7 @@ export default function User1({pod, onRename}) {
 
     return (<div>
         <div>Ja sam {pod.ime} i imam {pod.godine} godine</div>
-        <input value={pod.name} onChange={handleChange} disabled={!onRename} />
+        <input value={pod.ime} onChange={handleChange} disabled={!onRename} />
         
     </div>)
 }

@@ -22,6 +22,6 @@ export default function Function1() {
         <User1 pod={data[0]} />
         <User1 pod={data[1]} />
 
-        <button onChange={changeName}>Click me!</button>
+        <button onClick={changeName}>Click me!</button>
     </div>);
 }
