@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Input extends React.Component {
     constructor(props) {
@@ -31,3 +32,11 @@ export default class Input extends React.Component {
                 </form>);
     }
 }
+
+// definiramo propTypes, posto onNewTask ima props sto znaci da nam je to proptypes moramo ga definirati
+
+Input.propTypes = {
+    onNewTask: PropTypes.func
+}
+
+// Cisto da nam u consoli ispise dal sm onesto zaboravili, radi itd proptypes sluzi
