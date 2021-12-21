@@ -105,3 +105,5 @@ export default App;
 
 // kad se getFiltered ide renderirat otic ce do funkcije gore i pozvat ce funkcinju jer sm ostavili ()
 // filter ce uvijek vratit listu
+// browser je standardni i nema #
+// hashrouter ima #, sve poslije ljestvi ko da i ne piše ako se browsera tiče 
