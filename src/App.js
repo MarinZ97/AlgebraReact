@@ -107,3 +107,4 @@ export default App;
 // filter ce uvijek vratit listu
 // browser je standardni i nema #
 // hashrouter ima #, sve poslije ljestvi ko da i ne piše ako se browsera tiče 
+// navlink posluzuje da zamijeni link tako da se moze uredivat sa css onda
